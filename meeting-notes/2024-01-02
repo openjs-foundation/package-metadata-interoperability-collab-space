@@ -1,0 +1,47 @@
+Jan 2, 2024 - OpenJS Package Metadata Interop Collab Space
+
+### Attendees: 
+
+Ethan Arrowood (@ethan-arrowood)
+Robin Ginn (@rginn)
+Wes Todd (@wesleytodd)
+Darcy Clarke (@darcyclarke)
+Luke Karrys (@lukekarrys)
+
+### Notes:
+
+- package.json research
+  - Repo: https://github.com/openjs-foundation/package-json-research
+  - PR: https://github.com/openjs-foundation/package-json-research/pull/7
+  - Need to include “use cases” or “implementation details” based on npm registry.
+  - Careful of implicit bias - keep language open and present details as facts not suggestions.
+  - For example: https://docs.npmjs.com/cli/v10/using-npm/scope#associating-a-scope-with-a-registry
+  - Discussion: documenting use cases in package.json field research
+    - Maybe just document how npm works, invite yarn/bun want to add their docs if they can	
+- Repo for adjusting package.json info: https://github.com/npm/normalize-package-data
+  - This is a legacy package
+  - All package.json manip for npm has moved to https://github.com/npm/package-json
+- Finish automating meeting generating: https://github.com/nodejs/create-node-meeting-artifacts/pull/144
+- How can we be more actionable? 
+- Many libraries exist for working with package.json
+  - https://github.com/npm/normalize-package-data
+  - https://github.com/npm/types
+  - https://github.com/npm/package-json
+  - https://github.com/npm/read-package-json-fast
+  - https://github.com/npm/read-package-json
+  - https://www.npmjs.com/package/@types/npm
+- Tool as main function of the work = @pkgjs/create-pkg
+- **pkgjs**
+  - Disagree and commit - who cares if we use monorepo or not. Whoever is doing the work, make a tooling decision and lets ship it
+  - Question at hand, there are two repos atm: create-pkg, and create-package-json, can they be combined into one project? 
+    - https://github.com/pkgjs/create-pkg
+    - https://github.com/pkgjs/create-package-json
+  - Can we close out stale issues/prs?
+  - What work do we need to do next?
+
+### Action items:
+
+[ ] Begin opening draft PRs for keys you are researching: https://github.com/openjs-foundation/package-json-research/pull/
+[ ] @Ethan-Arrowood to update and merge research prs. Begin working on more fields as well
+[ ] @wesleytodd to “move the needle” on pkgjs create-pkg work
+[ ] Robin work with Ethan on a blog with our comms folks
