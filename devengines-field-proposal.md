@@ -120,3 +120,5 @@ Some potential future expansions of this spec that have been discussed are:
 - https://github.com/npm/npm-install-checks/pull/116
 
 - https://github.com/npm/cli/pull/7766
+
+- https://github.com/pnpm/pnpm/pull/9755
