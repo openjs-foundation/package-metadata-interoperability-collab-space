@@ -1,6 +1,6 @@
-# package-metadata-interoperability-collab-space
+# package-metadata-interoperability-working-group
 
-The goal of the Package Metadata Interoperability Collab Space is to improve how JavaScript developers define their packages across the ecosystem. The group is currently working to better understand package.json and how developers use it to define their projects.
+The goal of the Package Metadata Interoperability Working Group is to improve how JavaScript developers define their packages across the ecosystem. The group is currently working to better understand package.json and how developers use it to define their projects.
 
 ## Current Initiatives
 
@@ -11,6 +11,6 @@ The goal of the Package Metadata Interoperability Collab Space is to improve how
 2. [`@pkgjs/create-pkg` tooling](https://github.com/pkgjs/create-pkg)
    1. An initiative originally created by Node.js collaborators for Node.js based package tooling, the efforts here are now being expanded to align with this group's wider scope.
    2. The tooling being developed will be package manager and runtime agnostic and help developers across the entire JavaScript ecosystem.
-3. [`devEngines` field proposal](https://github.com/openjs-foundation/package-metadata-interoperability-collab-space/issues/15)
+3. [`devEngines` field proposal](https://github.com/openjs-foundation/package-metadata-interoperability-working-group/issues/15)
    1. The `devEngines` field was proposed as a partial solution to the ongoing Node.js and Corepack debate.
    2. The intent is for this field to provide all relevant development environment information akin to the existing `engines` field.
